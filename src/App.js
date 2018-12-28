@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div style={{height: '850px', position: 'relative'}}>
     <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
-        <Header className="header-color" transparent title="Welcome to my page" style={{color: 'white'}}>
+        <Header className="header-color" transparent title={<Link style={{textDecoration: 'none', color:'white'}} to="/">MyPortfolio</Link>} style={{color: 'white'}}>
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/contact">Contact</Link>

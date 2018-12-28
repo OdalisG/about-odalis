@@ -11,6 +11,17 @@ background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, F
 .projects-grid {
   display: flex;
 }
+.resume-right-col {
+  background: silver;
+  color:black;
+  width: 50%;
+  padding: 3em;
+}
+.resume-left-col {
+  background: white;
+  text-decoration-style: solid;
+}
+
 .contact-body {
   margin: auto;
   background: pink;
