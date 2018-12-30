@@ -68,10 +68,24 @@ background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, F
   margin: auto;
   border-radius: 10px;
 }
+.banners-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 55px;
   font-weight: bold;
   color:white;
+  text-align: center;
+}
+
+.banners-text h1 {
+  font-size: 55px;
+  font-weight: bold;
+  color:pink;
   text-align: center;
 }
 .banner-text hr {
@@ -79,7 +93,18 @@ background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, F
   width: 15%;
   margin: auto;
 }
+.banners-text hr {
+  border-top: 15px dash white;
+  width: 80%;
+  margin: auto;
+}
 .banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
+}
+.banners-text p {
   color: white;
   font-size: 20px;
   padding: 1em;

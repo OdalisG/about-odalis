@@ -35,7 +35,7 @@ class Projects extends Component {
             Please read the README.MD in github for further instructions.
      </CardText>
      <CardActions border>
-         <Button colored><a href="https://github.com/OdalisG/EmployeeCrud.git" rel="noopener noreferrer" target="_blank"></a>Enter GITHUB</Button>
+         <Button colored><a href="https://github.com/OdalisG/EmployeeCrud.git" rel="noopener noreferrer" target="_blank">Enter GITHUB</a></Button>
      </CardActions>
      <CardMenu style={{color: '#fff'}}>
      </CardMenu>
@@ -51,7 +51,7 @@ class Projects extends Component {
               Please read the README.MD in github for further instructions.
        </CardText>
        <CardActions border>
-           <Button colored><a href="https://github.com/OdalisG/OnlineRepairForm.git" rel="noopener noreferrer" target="_blank"></a>Enter GITHUB</Button>
+           <Button colored><a href="https://github.com/OdalisG/OnlineRepairForm.git" rel="noopener noreferrer" target="_blank">Enter GITHUB></a></Button>
        </CardActions>
        <CardMenu style={{color: '#fff'}}>
        </CardMenu>
